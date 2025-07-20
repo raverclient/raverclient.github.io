@@ -1,0 +1,49 @@
+body, html {
+    background-color: rgb(20, 20, 20);
+}
+
+.text {
+    color: white;
+    font-family: monospace;
+}
+
+a {
+    color: rgb(30, 219, 99);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(79, 254, 143)
+}
+
+button {
+    background-color: rgb(30, 219, 99);
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgb(79, 254, 143);
+}
+
+hr {
+    color: rgb(47, 114, 72);
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+mark {
+    background-color: rgba(9, 255, 152, 0.207);
+    color: rgb(79, 254, 143);
+}
+
+code {
+  background-color: #292929;
+  color: #5eff9c;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  font-size: 0.95em;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
